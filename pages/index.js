@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Script from "next/script";
 import Layout, { siteTitle } from "../components";
+import Date from "../components/date";
 import { getSortedPostsData } from "../lib/posts";
 import utilStyles from "../styles/utils.module.css";
 export async function getStaticProps() {
